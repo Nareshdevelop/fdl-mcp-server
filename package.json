@@ -1,0 +1,36 @@
+{
+  "name": "fdl-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for fivedaylaunch.com — lets Claude audit, compare, and check AI-visibility of any small business website. Free, public, no API key required.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "fdl-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "claude",
+    "website-audit",
+    "seo",
+    "aeo",
+    "small-business"
+  ],
+  "author": "fivedaylaunch.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nareshdevelop/fdl-mcp-server.git"
+  },
+  "homepage": "https://fivedaylaunch.com",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
