@@ -29,7 +29,7 @@ All free. All call fivedaylaunch.com's public API. Zero LLM tokens consumed.
   "mcpServers": {
     "fivedaylaunch": {
       "command": "npx",
-      "args": ["-y", "fdl-mcp-server"]
+      "args": ["-y", "github:Nareshdevelop/fdl-mcp-server"]
     }
   }
 }
@@ -51,7 +51,7 @@ After installing, ask Claude things like:
 ## Manual install (without Claude Desktop)
 
 ```bash
-npx -y fdl-mcp-server
+npx -y github:Nareshdevelop/fdl-mcp-server
 ```
 
 The server runs on stdio. Wire it into any MCP-compatible host (Cursor, Zed, Cline, Continue, etc.).
